@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mock__mainVisual {
+    width: 100vw;
+    height: 400px;
+    background-color: #D8D8D8;
+    font-size: 38px;
+    font-weight: 700;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mock__section--normal {
+    margin: 40px 0;
+    padding: 40px 0;
+}
+
+.mock__section--color {
+    margin: 40px 0;
+    padding: 40px 0;
+    background-color: #d8d8d8;
+}
+
+.mock__h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mock__overviewList {
+    width: 600px;
+    margin: 40px auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mock__overviewListItem {
+    width: 180px;
+    height: 220px;
+    background-color: #d8d8d8;
+    border-radius: 15px;
+}
+
+.mock__detailBox {
+    width: 600px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mock__detailBoxRound {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 75px;
+}
+
+.mock__detailBoxTxt--right {
+    margin: 30px 0 0 90px;
+}
+
+.mock__detailBoxTxt--left {
+    margin: 30px 90px 0 0;
+}
+
+.mock__detailBoxTxtItem {
+    width: 300px;
+    height: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.mock__youtube {
+    margin: 80px auto;
+    display: block;
+}
+
+.mock__notes {
+    width: 600px;
+    height: 10px;
+    margin: auto auto 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.mock__contact {
+    width: 600px;
+    height: 10px;
+    margin: auto auto 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #d8d8d8;
+}
