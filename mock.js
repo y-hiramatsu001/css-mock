@@ -15,29 +15,25 @@ $(function(){
 
         // console.log(windowBottom);
 
+        // 概要のアニメーション
         if (windowBottom > 1400) {
-            show($('.fn-point01'));
-            $('.fn-point01').addClass('animated fadeInLeft');
+            $('.fn-point01').addClass('is-tween');
         }
 
         if (windowBottom > 1800) {
-            show($('.fn-point02'));
-            $('.fn-point02').addClass('animated fadeInRight');
+            $('.fn-point02').addClass('is-tween');
         }
 
         if (windowBottom > 1900) {
-            show($('.fn-point03'));
-            $('.fn-point03').addClass('animated fadeInRight');
+            $('.fn-point03').addClass('is-tween');
         }
 
         if (windowBottom > 2200) {
-            show($('.fn-point04'));
-            $('.fn-point04').addClass('animated fadeInLeft');
+            $('.fn-point04').addClass('is-tween');
         }
 
         if (windowBottom > 2400) {
-            show($('.fn-point05'));
-            $('.fn-point05').addClass('animated fadeInRight');
+            $('.fn-point05').addClass('is-tween');
         }
 
         if (windowBottom > 2600) {
@@ -65,11 +61,11 @@ $(function(){
     function init() {
 
         // 非表示
-        hide($('.fn-point01'));
-        hide($('.fn-point02'));
-        hide($('.fn-point03'));
-        hide($('.fn-point04'));
-        hide($('.fn-point05'));
+        // hide($('.fn-point01'));
+        // hide($('.fn-point02'));
+        // hide($('.fn-point03'));
+        // hide($('.fn-point04'));
+        // hide($('.fn-point05'));
         hide($('.fn-point06'));
         hide($('.fn-point07'));
         hide($('.fn-point08'));
