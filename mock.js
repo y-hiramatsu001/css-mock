@@ -4,15 +4,8 @@ $(function(){
     let windowBottom = 0;
     let windowHeight = $(window).height();
 
-    // hide
-    hide($('.fn-point01'));
-    hide($('.fn-point02'));
-    hide($('.fn-point03'));
-    hide($('.fn-point04'));
-    hide($('.fn-point05'));
-    hide($('.fn-point06'));
-    hide($('.fn-point07'));
-    hide($('.fn-point08'));
+    // 初期処理
+    init();
 
     // scroll event
     $(window).scroll(function() {
@@ -20,7 +13,7 @@ $(function(){
         windowTop = $(this).scrollTop();
         windowBottom = windowTop + windowHeight;
 
-        console.log(windowBottom);
+        // console.log(windowBottom);
 
         if (windowBottom > 1400) {
             show($('.fn-point01'));
@@ -32,7 +25,7 @@ $(function(){
             $('.fn-point02').addClass('animated fadeInRight');
         }
 
-        if (windowBottom > 2000) {
+        if (windowBottom > 1900) {
             show($('.fn-point03'));
             $('.fn-point03').addClass('animated fadeInRight');
         }
@@ -65,6 +58,25 @@ $(function(){
     });
 
     // ---------------------------------------------------------------------------
+
+    /**
+     * 初期処理
+     */
+    function init() {
+
+        // 非表示
+        hide($('.fn-point01'));
+        hide($('.fn-point02'));
+        hide($('.fn-point03'));
+        hide($('.fn-point04'));
+        hide($('.fn-point05'));
+        hide($('.fn-point06'));
+        hide($('.fn-point07'));
+        hide($('.fn-point08'));
+
+        // メインビジュアルのアニメーション
+        $('.fn-pulseIn').addClass('is-tween');
+    }
 
     /**
      * 要素の表示

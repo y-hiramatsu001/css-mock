@@ -102,3 +102,18 @@ body {
     background-color: #d8d8d8;
 }
 
+/* アニメーション */
+
+.pulseIn {
+    -webkit-transition: all .5s cubic-bezier(.68,-.55,.265,1.55);
+    transition: all .5s cubic-bezier(.68,-.55,.265,1.55);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0
+}
+
+.pulseIn.is-tween {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1
+}
